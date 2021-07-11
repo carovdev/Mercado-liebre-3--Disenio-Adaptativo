@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --color-amarillo: #EAC926;
+    --color-azul:#03264C;
+    --color-celeste:#1259c3;
+    --color-grisOscuro:#666;
+    --color-grisClaro:#ebebeb;
+    --color-verde:#39b54a;
+
+}
+*{
+    font-family: 'Roboto';
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0%;
+    font-size: 12px;
+}

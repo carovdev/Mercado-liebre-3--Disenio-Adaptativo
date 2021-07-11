@@ -1,0 +1,254 @@
+*{
+    padding: 0;
+    font-family: 'Roboto';
+    text-decoration: none;
+    font-size: 12px;
+}
+
+body{
+    margin: 0;
+}
+
+
+/*header*/
+
+.principal img{
+    padding-top: 30px ;
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+
+.buscador {
+    padding-left: 20px;
+}
+
+
+.principal div p{
+    padding-left: 25px;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+
+.principal .categorias{
+    display: none;
+}
+
+
+.principal{
+    background-color:var(--color-amarillo);
+}
+
+.burger-menu{
+    text-align: center;
+    padding-bottom: 10px;
+
+    
+    
+}
+
+.home .burger-menu button{
+    display: inline-block;
+    margin: 10px auto;
+    background-color: var(--color-celeste);
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    
+}
+/*main*/
+
+.main {
+    background-color: var(--color-grisClaro);
+
+}
+
+
+.banner{
+    display: block;
+    width: 100%;
+  
+}
+.main h2 {
+    font-size: 24px;
+
+    
+    
+
+}
+.main section p {
+    font-size: 18px;
+   
+    
+   
+}
+.main section span.oferta{
+    font-size: 16px;
+    color:var(--color-verde);
+    
+
+}
+
+div.truck{
+    background-color: white;
+    width: 280px;
+    padding: 10px;
+   
+    
+}
+
+
+.main .articulos h4{
+    font-size: 16px;
+    padding-top: 15px;
+    color: var(--color-grisOscuro);
+    display: none;
+
+}
+
+main section article{
+    width: 90%;
+}
+
+main section{
+    padding: 10px;
+}
+.articulos{
+    padding-bottom: 10px;
+}
+.articulos h4{
+    margin: 10px 0;
+}
+.articulos .truck-border{
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid var(--color-verde);
+    padding: 10px;
+    
+}
+
+.truck{
+    padding-left: 15px;
+    padding-bottom: 10px;
+     
+}
+
+.main .articulos .truck i{
+    position: relative;
+    bottom: 6px;
+    right: 5px;
+
+}
+/*footer*/
+
+footer{
+    background-color: white;
+    padding-top: 30px;
+}
+.foott{
+    text-align: center;
+    padding: 30px;
+    margin: 0;
+}
+
+.foott i{
+    font-size: 2em;
+   margin-bottom: 5px;
+   color: var(--color-celeste);
+}
+.copy p{
+    padding: 20px 15px;
+    color: var(--color-grisOscuro);
+}
+
+
+@media (min-width: 361px) {
+    
+    /* header */
+
+    
+    .main .banner{
+        padding-bottom: 50px;
+    }
+
+    .principal .categorias i{
+        padding-left: 3px;
+    }
+
+    .principal .categorias{
+        display: block;
+        padding-bottom: 10px;
+        margin:0;
+        padding-left: 15px;
+    }
+
+    .principal .burger-menu{
+        display: none;
+    }
+
+
+
+       /* main */
+
+    
+    .articulos img{  
+        width: 110%;
+        height: 30rem;
+        box-shadow: 0 0 5px  rgb(100, 100, 100)
+
+    }
+    
+    .main .truck{  
+        width: 323px;  
+        box-shadow: 0 0 5px  rgb(100, 100, 100);
+        padding-top: 10px;
+    }
+    .main .articulos h4{
+        color: var(--color-grisOscuro);
+        font-size: 16px;
+        display: block;
+    }
+}
+  
+
+@media (min-width: 769px) {
+
+    /*main*/
+
+    .main .banner{
+        display: block;
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    
+    .main .articulos{
+        padding-left: 5px;
+    }
+
+    .articulos img{
+        height: 80rem;
+        
+    }
+    
+    .main .truck{  
+        width: 727px;  
+        height: 11rem;
+    }
+
+    .main  .articulos p{
+        font-size: 14px;
+    }
+
+    .main  .articulos .oferta{
+        font-size: 14px;
+    }
+
+    .main  .articulos h4{
+        font-size: 14px;
+    }
+
+    .main h2{
+        padding-left: 5px;
+
+    }
+}
