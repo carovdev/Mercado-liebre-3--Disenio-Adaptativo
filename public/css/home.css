@@ -60,22 +60,38 @@ body{
 
 .main {
     background-color: var(--color-grisClaro);
-
+    
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
 }
 
-
 .banner{
-    display: block;
+    display: none;
     width: 100%;
   
 }
-.main h2 {
-    font-size: 24px;
+.main article img{
+    margin-bottom: 1px;
+    background-color: white;
+    width: 100%;
+    box-shadow: 0 0 5px  rgb(100, 100, 100)
+    }
 
-    
-    
+
+.main .articulos{
+    background-color: white;
+    margin-bottom: 10px;
+}
+.main h2 {
+    font-size: 24px; 
 
 }
+
+.main .precio{
+    padding-left: 10px;
+}
+
 .main section p {
     font-size: 18px;
    
@@ -90,35 +106,27 @@ body{
 }
 
 div.truck{
-    background-color: white;
-    width: 280px;
     padding: 10px;
-   
-    
+     
 }
+
 
 
 .main .articulos h4{
     font-size: 16px;
     padding-top: 15px;
+    padding-left: 10px;
     color: var(--color-grisOscuro);
     display: none;
 
 }
 
-main section article{
-    width: 90%;
-}
+
 
 main section{
     padding: 10px;
 }
-.articulos{
-    padding-bottom: 10px;
-}
-.articulos h4{
-    margin: 10px 0;
-}
+
 .articulos .truck-border{
     display: inline-block;
     border-radius: 50%;
@@ -165,9 +173,9 @@ footer{
 @media (min-width: 361px) {
     
     /* header */
-
-    
-    .main .banner{
+     .banner{
+        display: block;
+        width: 100%;
         padding-bottom: 50px;
     }
 
@@ -193,14 +201,19 @@ footer{
     
     .articulos img{  
         width: 110%;
-        height: 30rem;
         box-shadow: 0 0 5px  rgb(100, 100, 100)
 
     }
+    main{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main .precio{
+        width: 100%;
+    }
     
     .main .truck{  
-        width: 318px;  
-        box-shadow: 0 0 5px  rgb(100, 100, 100);
         padding-top: 10px;
     }
     .main .articulos h4{
@@ -215,7 +228,7 @@ footer{
 
     /*main*/
 
-    .main .banner{
+     .banner{
         display: block;
         width: 100%;
         padding-bottom: 50px;
@@ -225,15 +238,6 @@ footer{
         padding-left: 5px;
     }
 
-    .articulos img{
-        height: 80rem;
-        
-    }
-    
-    .main .truck{  
-        width: 722px;  
-        height: 11rem;
-    }
 
     .main  .articulos p{
         font-size: 14px;
